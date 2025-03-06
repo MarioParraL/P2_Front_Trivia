@@ -7,9 +7,6 @@ type Data = {
 };
 
 export default async function Home() {
-  const API_KEY = Deno.env.get("API_KEY");
-  if (!API_KEY) throw new Error("API_KEY ERROR");
-
   const response = await Axios.get<Data[]>(
     "https://api.api-ninjas.com/v1/trivia",
     {

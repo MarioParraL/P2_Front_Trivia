@@ -1,6 +1,6 @@
 import { useSignal } from "@preact/signals";
 export default function Respuesta(props: { correctAnswer: string }) {
-  const answer = useSignal(props.correctAnswer);
+  const answer = useSignal("");
   return (
     <section>
       <input

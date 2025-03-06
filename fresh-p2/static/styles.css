@@ -1,0 +1,47 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.title {
+  text-align: center;
+}
+
+.pregunta {
+  font-size: 20px;
+}
+
+.rectangulo {
+  height: 40px;
+  width: 200px;
+}
+
+.miboton {
+  padding: 10px 20px;
+  height: 40px;
+  width: 160px;
+  cursor: pointer;
+}
+
+.pantalla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-top: 10px;
+  gap: 70px;
+  font-size: 30px;
+}
+
+.volver {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid;
+  color: black;
+  width: 40%;
+}
